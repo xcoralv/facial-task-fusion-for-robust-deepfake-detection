@@ -1,0 +1,18 @@
+# Trained models and checkpoints
+saved_models/
+
+# DF40 dataset JSON manifests
+preprocessing/dataset_json/DF40_TEST_*.json
+
+# Extracted features
+**/features/
+**/*features*.npy
+**/*features*.pt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Experiment outputs
+*.pkl
+*.log
